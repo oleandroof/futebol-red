@@ -22,7 +22,7 @@ spl_autoload_register(static function (string $class): void {
         return;
     }
 
-    $path = __DIR__ . '/' . str_replace('\\', '/', $class) . '.php';
+    $path = __DIR__ . '/app/' . str_replace('\\', '/', substr($class, strlen($prefix))) . '.php';
     if (is_file($path)) {
         require_once $path;
     }
