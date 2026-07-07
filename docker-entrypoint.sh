@@ -15,9 +15,9 @@ GRANT ALL PRIVILEGES ON padasorte.* TO 'padasorte'@'localhost';
 FLUSH PRIVILEGES;
 EOF
 
-# Importa o SQL se existir
-if [ -f /var/www/html/SQL\ DO\ SISTEMA\ NOVO.sql ]; then
-    mysql -u root padasorte < "/var/www/html/SQL DO SISTEMA NOVO.sql"
+# Importa o SQL
+if [ -f /var/www/html/database.sql ]; then
+    mysql -u root padasorte < /var/www/html/database.sql
     echo "SQL importado com sucesso"
 fi
 

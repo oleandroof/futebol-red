@@ -1,4 +1,4 @@
-*.sql
+SQL DO SISTEMA NOVO.sql
 storage/logs/*
 storage/cache/*
 .env
