@@ -7,7 +7,7 @@ return [
     'host' => '127.0.0.1',
     'port' => 3306,
     'database' => 'padasorte',
-    'username' => 'root',
-    'password' => 'senha nova',
+    'username' => getenv('DB_USER') ?: 'padasorte',
+    'password' => getenv('DB_PASS') ?: 'padasorte123',
     'charset' => 'utf8mb4',
 ];
