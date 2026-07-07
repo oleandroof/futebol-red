@@ -1,0 +1,22 @@
+{
+  "name": "PA DASORTE",
+  "short_name": "PA DASORTE",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#b11616",
+  "theme_color": "#b11616",
+  "description": "Apostas esportivas PA DASORTE",
+  "icons": [
+    {
+      "src": "public/assets/img/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "public/assets/img/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

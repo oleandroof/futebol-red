@@ -1,0 +1,5 @@
+*.sql
+storage/logs/*
+storage/cache/*
+.env
+node_modules/
